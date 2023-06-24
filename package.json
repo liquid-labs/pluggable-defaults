@@ -13,5 +13,8 @@
   "bugs": {
     "url": "https://github.com/liquid-labs/liq-defaults/issues"
   },
-  "homepage": "https://github.com/liquid-labs/liq-defaults#readme"
+  "homepage": "https://github.com/liquid-labs/liq-defaults#readme",
+  "devDependencies": {
+    "@liquid-labs/catalyst-scripts-node-project": "^1.0.0-alpha.18"
+  }
 }
