@@ -1,0 +1,20 @@
+Test git rev: fc32ae8faf422d465ed6ee59764ab512ac8a9552
+PASS test/locations.test.js
+  LIQ_HOME
+    ✓ defaults to '.liq' in users home dir
+    ✓ can be overridden by setting environment var LIQ_HOME
+  LIQ_PLAYGROUND
+    ✓ defaults to '<LIQ_HOME>/playground' in users home dir
+    ✓ can be overridden by setting environment var LIQ_PLAYGROUND
+
+---------------|---------|----------|---------|---------|-------------------
+File           | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+---------------|---------|----------|---------|---------|-------------------
+All files      |   78.94 |    66.66 |   33.33 |     100 |                   
+ locations.mjs |   78.94 |    66.66 |   33.33 |     100 | 8                 
+---------------|---------|----------|---------|---------|-------------------
+Test Suites: 1 passed, 1 total
+Tests:       4 passed, 4 total
+Snapshots:   0 total
+Time:        0.152 s, estimated 1 s
+Ran all test suites.
