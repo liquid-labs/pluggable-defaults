@@ -34,3 +34,19 @@ describe('LIQ_PLAYGROUND', () => {
     }
   })
 })
+
+describe('LIQ_WORKING_DIR_ROOT', () => {
+  test("defaults to '<LIQ_HOME>/tmp' in users home dir", () =>
+    expect(locations.LIQ_WORKING_DIR_ROOT()).toBe(fsPath.join(locations.LIQ_HOME(), 'tmp')))
+
+  test('can be overridden by setting environment var LIQ_PLAYGROUND', () => {
+    const newWorkingDir = fsPath.sep + 'foo'
+    process.env.LIQ_WORKING_DIR_ROOT = newWorkingDir
+    try {
+      expect(locations.LIQ_WORKING_DIR_ROOT()).toBe(newWorkingDir)
+    }
+    finally {
+      delete process.env.LIQ_WORKING_DIR_ROOT
+    }
+  })
+})
