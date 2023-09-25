@@ -1,0 +1,16 @@
+Test git rev: 30cdbde5a91ffedbba74c06c0b4256fe14c88290
+PASS test/network.test.js
+PASS test/locations.test.js
+---------------|---------|----------|---------|---------|-------------------
+File           | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+---------------|---------|----------|---------|---------|-------------------
+All files      |      84 |       80 |      50 |     100 |                   
+ locations.mjs |   81.81 |       75 |   42.85 |     100 | 9                 
+ network.mjs   |     100 |      100 |     100 |     100 |                   
+---------------|---------|----------|---------|---------|-------------------
+
+Test Suites: 2 passed, 2 total
+Tests:       8 passed, 8 total
+Snapshots:   0 total
+Time:        0.152 s, estimated 1 s
+Ran all test suites.
