@@ -1,0 +1,15 @@
+Test git rev: 748d2559e68c037c00f3720a22d17a5c4bd8ac05
+
+/Users/zane/.liq/playground/liquid-labs/liq-defaults/src/index.mjs
+  2:26  error  Newline required at end of file but not found  eol-last
+
+/Users/zane/.liq/playground/liquid-labs/liq-defaults/src/network.mjs
+  1:60  error  Newline required at end of file but not found  eol-last
+
+/Users/zane/.liq/playground/liquid-labs/liq-defaults/src/test/network.test.js
+  2:13  error  'fsPath' is defined but never used  no-unused-vars
+  7:8   error  Strings must use singlequote        quotes
+
+✖ 4 problems (4 errors, 0 warnings)
+  3 errors and 0 warnings potentially fixable with the `--fix` option.
+
