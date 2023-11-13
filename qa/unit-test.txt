@@ -1,0 +1,16 @@
+Test git rev: db365cef879c7b775fdfb594b03422cccd6a3505
+PASS test/locations.test.js
+PASS test/network.test.js
+---------------|---------|----------|---------|---------|-------------------
+File           | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+---------------|---------|----------|---------|---------|-------------------
+All files      |      84 |       80 |      50 |     100 |                   
+ locations.mjs |   81.81 |       75 |   42.85 |     100 | 9                 
+ network.mjs   |     100 |      100 |     100 |     100 |                   
+---------------|---------|----------|---------|---------|-------------------
+
+Test Suites: 2 passed, 2 total
+Tests:       8 passed, 8 total
+Snapshots:   0 total
+Time:        0.238 s
+Ran all test suites.
