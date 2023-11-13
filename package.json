@@ -1,8 +1,8 @@
 {
-  "name": "@liquid-labs/liq-defaults",
+  "name": "@liquid-labs/plugable-defaults",
   "version": "1.0.0-alpha.3",
   "description": "",
-  "main": "dist/liq-defaults.js",
+  "main": "dist/plugable-defaults.js",
   "scripts": {
     "build": "make",
     "lint": "make lint",
@@ -14,11 +14,14 @@
   "keywords": [],
   "author": "Zane Rockenbaugh <zane@liquid-labs.com>",
   "license": "UNLICENSED",
-  "repository": "git+ssh://git@github.com/liquid-labs/liq-defaults.git",
-  "bugs": {
-    "url": "https://github.com/liquid-labs/liq-defaults/issues"
+  "repository": {
+    "url": "git+ssh://git@github.com/liquid-labs/plugable-defaults.git",
+    "type": "git"
   },
-  "homepage": "https://github.com/liquid-labs/liq-defaults#readme",
+  "bugs": {
+    "url": "https://github.com/liquid-labs/plugable-defaults/issues"
+  },
+  "homepage": "https://github.com/liquid-labs/plugable-defaults#readme",
   "devDependencies": {
     "@liquid-labs/catalyst-scripts-node-project": "^1.0.0-alpha.18"
   }
