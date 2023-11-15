@@ -23,3 +23,6 @@ export const PLUGABLE_SERVER_PID_FILE = () => fsPath.join(PLUGABLE_SERVER_DB(), 
 export const PLUGABLE_PLUGINS_DIR = () => process.env.PLUGABLE_PLUGIN_DIR
   || process.env.LIQ_PLUGIN_PATH
   || fsPath.join(PLUGABLE_SERVER_DB(), 'plugins')
+
+export const PLUGABLE_REGITRY = () =>
+  'https://raw.githubusercontent.com/liquid-labs/plugable-registry/main/registry.yaml'
