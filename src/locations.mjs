@@ -2,11 +2,11 @@ import fsPath from 'node:path'
 
 const configDir = process.env.XDG_CONFIG_HOME || fsPath.join(process.env.HOME, '.config')
 
-export const PLUGABLE_HOME = () => process.env.PLUGABLE_HOME 
+export const PLUGABLE_HOME = () => process.env.PLUGABLE_HOME
   || process.env.LIQ_HOME
   || fsPath.join(configDir, 'plugable')
 
-export const PLUGABLE_PLAYGROUND = () => process.env.PLUGABLE_PLAYGROUND 
+export const PLUGABLE_PLAYGROUND = () => process.env.PLUGABLE_PLAYGROUND
   || process.env.LIQ_PLAYGROUND
   || fsPath.join(process.env.HOME, 'playground')
 

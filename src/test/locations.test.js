@@ -39,8 +39,7 @@ describe('PLUGABLE_WORKING_DIR', () => {
   test("defaults to '<PLUGABLE_HOME>/tmp' in users home dir", () =>
     expect(locations.PLUGABLE_WORKING_DIR()).toBe(fsPath.join(locations.PLUGABLE_HOME(), 'tmp')))
 
-  test.each(['LIQ_WORKING_DIR', 'PLUGABLE_WORKING_DIR'])
-      ('can be overridden by setting environment var %s', (envVar) => {
+  test.each(['LIQ_WORKING_DIR', 'PLUGABLE_WORKING_DIR'])('can be overridden by setting env var %s', (envVar) => {
     const newWorkingDir = fsPath.sep + 'foo'
     process.env[envVar] = newWorkingDir
     try {
