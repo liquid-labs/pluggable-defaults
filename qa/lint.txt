@@ -1,0 +1,12 @@
+Test git rev: 1eee2ae2f45c672121f438be681569a3ee8ecea6
+
+/Users/zane/.liq/playground/liquid-labs/plugable-defaults/src/locations.mjs
+  3:7  error  'configDir' is assigned a value but never used  no-unused-vars
+
+/Users/zane/.liq/playground/liquid-labs/plugable-defaults/src/test/locations.test.js
+   7:8  error  Unexpected template string expression          no-template-curly-in-string
+  37:3  error  Newline required at end of file but not found  eol-last
+
+✖ 3 problems (3 errors, 0 warnings)
+  1 error and 0 warnings potentially fixable with the `--fix` option.
+
