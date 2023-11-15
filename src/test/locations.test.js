@@ -5,7 +5,7 @@ import { configDir } from '../config-dir'
 import * as locations from '../locations'
 
 describe('PLUGABLE_CLI_SETTINGS_PATH', () => {
-  test("defaults to '<config-dir>/plugable/cli-settings.yaml'", () => 
+  test("defaults to '<config-dir>/plugable/cli-settings.yaml'", () =>
     expect(locations.PLUGABLE_CLI_SETTINGS_PATH()).toBe(fsPath.join(configDir, 'plugable', 'cli-settings.yaml')))
 
   test('can be overriden by setting environment var PLUGABLE_CLI_SETTINGS_PATH', () => {
