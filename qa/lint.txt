@@ -1,0 +1,14 @@
+Test git rev: 84f2046c2c7c7aec7a2ec1ec190d28f2c932b5ba
+
+/Users/zane/.liq/playground/liquid-labs/plugable-defaults/src/locations.mjs
+  5:61  error  Trailing spaces not allowed  no-trailing-spaces
+  9:73  error  Trailing spaces not allowed  no-trailing-spaces
+
+/Users/zane/.liq/playground/liquid-labs/plugable-defaults/src/test/locations.test.js
+  42:57  error  Unexpected whitespace between function name and paren       func-call-spacing
+  43:1   error  Expected indentation of 2 spaces but found 6                indent
+  43:7   error  Unexpected newline between function and ( of function call  no-unexpected-multiline
+
+✖ 5 problems (5 errors, 0 warnings)
+  3 errors and 0 warnings potentially fixable with the `--fix` option.
+
