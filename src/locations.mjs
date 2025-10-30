@@ -8,6 +8,3 @@ export const PLUGABLE_CLI_SETTINGS_PATH = () => process.env.PLUGABLE_CLI_SETTING
 export const PLUGABLE_PLAYGROUND = () => process.env.PLUGABLE_PLAYGROUND
   || process.env.LIQ_PLAYGROUND
   || fsPath.join(process.env.HOME, 'playground')
-
-export const PLUGABLE_REGISTRY = () => process.env.PLUGABLE_REGISTRY
-  || 'https://raw.githubusercontent.com/liquid-labs/plugable-registry/main/registry.yaml'

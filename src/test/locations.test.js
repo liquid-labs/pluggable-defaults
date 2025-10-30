@@ -35,20 +35,3 @@ describe('PLUGABLE_PLAYGROUND', () => {
     }
   })
 })
-
-describe('PLUGABLE_REGISTRY', () => {
-  test("defaults to '<PLUGABLE_HOME>/playground' in users home dir", () =>
-    expect(locations.PLUGABLE_REGISTRY())
-      .toBe('https://raw.githubusercontent.com/liquid-labs/plugable-registry/main/registry.yaml'))
-
-  test('can be overridden by setting environment var PLUGABLE_REGISTRY', () => {
-    const registry = 'https://foo.com/registry'
-    process.env.PLUGABLE_REGISTRY = registry
-    try {
-      expect(locations.PLUGABLE_REGISTRY()).toBe(registry)
-    }
-    finally {
-      delete process.env.PLUGABLE_REGISTRY
-    }
-  })
-})
