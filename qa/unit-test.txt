@@ -1,0 +1,22 @@
+Test git rev: dd402feaa7ae994618bddfd37620430cd94486ea
+PASS test/locations.test.js
+  PLUGABLE_CLI_SETTINGS_PATH
+    ✓ defaults to '<config-dir>/plugable/cli-settings.yaml'
+    ✓ can be overriden by setting environment var PLUGABLE_CLI_SETTINGS_PATH
+  PLUGABLE_PLAYGROUND
+    ✓ defaults to '${HOME}/playground' in users home dir
+    ✓ can be overridden by setting environment var LIQ_PLAYGROUND
+    ✓ can be overridden by setting environment var PLUGABLE_PLAYGROUND (1 ms)
+
+----------------|---------|----------|---------|---------|-------------------
+File            | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+----------------|---------|----------|---------|---------|-------------------
+All files       |     100 |      100 |     100 |     100 |                   
+ config-dir.mjs |     100 |      100 |     100 |     100 |                   
+ locations.mjs  |     100 |      100 |     100 |     100 |                   
+----------------|---------|----------|---------|---------|-------------------
+Test Suites: 1 passed, 1 total
+Tests:       5 passed, 5 total
+Snapshots:   0 total
+Time:        0.12 s, estimated 1 s
+Ran all test suites.
